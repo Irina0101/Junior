@@ -7,6 +7,7 @@ class Book {
   }
 }
 
+// TODO: Read task with more attention (use "extends" for resolve this task)
 class electronicBook {
   constructor(format, eNumber, casualBook){
     this.format = format;
