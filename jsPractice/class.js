@@ -7,11 +7,11 @@ class Book {
   }
 }
 
-class electronicBook {
-  constructor(format, eNumber, casualBook){
+class electronicBook extends Book {
+  constructor(author, name, year, publishing, format, eNumber){
+    super(author, name, year, publishing);
     this.format = format;
     this.eNumber = eNumber;
-    this.book = new Book(casualBook);
   }
 }
 
